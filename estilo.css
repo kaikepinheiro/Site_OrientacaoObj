@@ -2,17 +2,51 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: black;
+}
+
 h1{
     text-align: center;
     padding-bottom: 15px;
+    font-family: 'Play', sans-serif;
+}
+
+@media only screen and (max-width: 400px) {
+    img {
+      width: 100%;
+    }
+  }
+
+img{
+   padding-left: 30px; 
+   padding-right: 30px;
+   padding-bottom: 30px;
 }
 
 h2{
+    text-align: center;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: 'Play', sans-serif;
+}
+
+h3{
+    text-align: center;
+    padding-bottom: 10px;
 }
 
 p{
-    padding-left: 15px;
-    padding-right: 15px;
+    font-family: 'Play', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+}
+
+footer{
+    color: #fff;
+    background-color: rgb(40, 41, 40);
+    text-align: center;
+    font-family: 'Play', sans-serif;
+    padding-top: 20px;
 }

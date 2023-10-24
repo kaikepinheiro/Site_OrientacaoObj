@@ -22,6 +22,9 @@
 
     <h1>Tudo sobre Programação Orientada á Objetos</h1>
 
+    <img src="img/poo.png" class="img-fluid" alt="Responsive image" style="width: 100%;">
+
+
     <div class="texto">
         <h2>O que são classes e objetos?</h2>
              <p>Imagine que você comprou um carro recentemente e decide modelar esse carro usando programação orientada a objetos. O seu carro tem as características que você estava procurando: um motor 2.0 híbrido, azul escuro, quatro portas, câmbio automático etc. Ele também possui comportamentos que, provavelmente, foram o motivo de sua compra, como acelerar, desacelerar, acender os faróis, buzinar e tocar música. Podemos dizer que o carro novo é um objeto, onde suas características são seus atributos (dados atrelados ao objeto) e seus comportamentos são ações ou métodos.</p>
@@ -40,13 +43,13 @@
     
 
     <div class="container">
-        <h2>Usando o POO em forms</h2>
+        <h3>Usando o POO em forms</h3>
         <form id="personForm">
             <input type="text" id="firstName" class="form-control" class="form-label" placeholder="Nome">
             <br>
             <input type="text" id="lastName" class="form-control" class="form-label" placeholder="Sobrenome">
             <br>
-            <input type="text" id="language" class="form-control" class="form-label" placeholder="Personalidade">
+            <input type="text" id="language" class="form-control" class="form-label" placeholder="Nacionalidade">
             <br>
             <button type="submit" class="btn btn-success">Enviar</button>
             <br>
@@ -55,10 +58,19 @@
 
         <br>
         <div class="display-details">
-            <h3>Resposta</h3>
-            <p>Nome: <span id="displayFirstName"></span></p>
-            <p>Sobrenome: <span id="displayLastName"></span></p>
-            <p>Personalidade: <span id="displayLanguage"></span></p>
+            <h4>Resposta</h4>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="displayFirstName">Nome</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="displayLastName">Sobrenome</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
+                <div class="input-group input-group-sm mb-3">
+                    <span class="input-group-text" id="displayLanguage">Nacionalidade</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                </div>
         </div>
     </div> 
 
@@ -71,3 +83,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
